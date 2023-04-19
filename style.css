@@ -10,7 +10,7 @@
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
     list-style: none;
-    text-decoration: none;
+   
 }
 
 html{
@@ -1502,8 +1502,11 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 36px;
-        position: relative;
+        margin-top: 0px;
+        position: fixed;
+        z-index: 10;
+        background-color: white;
+        box-shadow: 40px 40px 55px white;
 
     }
     .navbar__logo-text{
@@ -1575,6 +1578,7 @@ body{
         text-align: center;
         display: flex;
         flex-direction: row-reverse;
+        margin-top: 50px;
     }
     .learn__img{
         width: 100%;
@@ -2025,10 +2029,11 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 36px;
-        position: relative;
-        /* position: fixed;
-        top: 5px; */
+        margin-top: 0px;
+        position: fixed;
+        z-index: 10;
+        background-color: white;
+        box-shadow: 40px 40px 55px white;
 
     }
     .navbar__logo-text{
@@ -2036,8 +2041,6 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        /* justify-content: space-between;
-        align-items: center; */
         color: rgb(0, 0, 0);
         font-size: 24px;
     }
@@ -2072,7 +2075,6 @@ body{
         align-items: flex-start;
     }
     .hidden__logo-text-link{
-        /* padding-top: 8px; */
         color: white;
         margin-right:10px;
         font-size: 18px;
@@ -2094,6 +2096,7 @@ body{
         text-align: center;
         display: flex;
         flex-direction: row-reverse;
+    
     }
     .learn__img{
         width: 90%;
@@ -2534,7 +2537,7 @@ body{
 @media only screen and (min-width: 1200px) {
   
     .container{
-        width: 95%;
+        width: 1200px;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -2546,11 +2549,10 @@ body{
         justify-content: space-between;
         align-items: center;
         margin-top: 0px;
-        /* position: relative; */
-        /* position: fixed; */
-        
+        position: fixed;
+        z-index: 10;
         background-color: white;
-        box-shadow: 7px 7px 25px white;
+        box-shadow: 40px 40px 55px white;
 
     }
     .navbar__logo-text{
@@ -2570,10 +2572,10 @@ body{
         padding-top: 16px;
         padding-bottom: 16px;
         font-size: 24px;
-       
         border-color: #000000;
         background: none;
         border-radius: 8px;
+        margin-right: 100px;
     }
     .navbar__bars{
         margin-right: 15px;
@@ -2616,6 +2618,7 @@ body{
         text-align: center;
         display: flex;
         flex-direction: row-reverse;
+        margin-top: 45px;
     }
     .learn__img{
         width: 90%;
